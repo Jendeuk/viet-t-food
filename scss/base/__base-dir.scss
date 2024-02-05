@@ -1,0 +1,41 @@
+@import "reset";
+
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: #f9f6e3;
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+main {
+  min-height: calc(100vh - 240px - 100px);
+}
+.skip-to-content {
+  background-color: rgb(46, 46, 46);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  z-index: 100;
+  transform: translateY(-120%);
+}
+.skip-to-content:focus {
+  transform: translateY(0);
+}
+
+.scroll-to-top {
+  color: #fff;
+  z-index: 100;
+}

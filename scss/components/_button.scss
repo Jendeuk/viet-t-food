@@ -1,0 +1,31 @@
+.btn {
+  justify-self: end;
+  align-self: end;
+  background-color: #7c2f18;
+  color: #ffffff;
+  border: none;
+  border-radius: 60px;
+  padding: 12px 42px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: filter 0.15s;
+  box-shadow: 2px 2px 10px #7c2f18;
+  &:hover {
+    filter: brightness(1.2);
+  }
+  &:active {
+    filter: brightness(0.8);
+  }
+}
+
+.btn-secondary {
+  color: #000;
+  font-weight: 500;
+  background-color: #9fbb73;
+  box-shadow: none;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 20px;
+}

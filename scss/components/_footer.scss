@@ -1,0 +1,18 @@
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #313131;
+  color: #fff;
+  height: 240px;
+  text-align: center;
+  h3 {
+    font-size: 2rem;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 2rem;
+  }
+  p {
+    margin: 0.25rem;
+  }
+}

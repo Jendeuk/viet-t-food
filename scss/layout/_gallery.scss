@@ -1,0 +1,27 @@
+.gallery {
+  h2 {
+    margin: 40px 0;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .gallery-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 80px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    .gallery-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
